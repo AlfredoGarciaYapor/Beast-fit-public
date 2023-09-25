@@ -7,7 +7,7 @@ const Exercises = () => {
 
   return (
     <>
-      hola
+      <h2>hola</h2>
       <ExercisesList exercises={exercises} />
     </>
   );
