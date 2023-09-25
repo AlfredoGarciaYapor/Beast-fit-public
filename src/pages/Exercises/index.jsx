@@ -3,10 +3,11 @@ import ExercisesList from "../../components/Exercises/ExercisesList";
 import { useExercisesList } from "../../hooks/Exercises/useExercisesList";
 
 const Exercises = () => {
-  const {exercises} = useExercisesList();
+  const { exercises } = useExercisesList();
 
   return (
     <>
+      hola
       <ExercisesList exercises={exercises} />
     </>
   );
