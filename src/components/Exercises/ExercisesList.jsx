@@ -9,7 +9,7 @@ const ExercisesList = (exercises = []) => {
           console.log("%c⧭", "color: #ff0000", exercise.name);
           return (
             <li className="flex justify-center">
-              <div className="flex flex-col w-96 my-3 p-3 bg-slate-200 rounded shadow-md">
+              <div className="flex flex-col w-96 my-3 p-3 bg-slate-500 rounded shadow-md">
                 <span>
                   <strong>Name: </strong>
                   {exercise.name}
